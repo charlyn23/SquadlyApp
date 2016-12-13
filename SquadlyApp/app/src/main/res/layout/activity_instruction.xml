@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructions"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:id="@+id/header"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="86dp">
+
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleTextView"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="75sp"
+            />
+
+        <TextView
+        android:text="@string/slug_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sluglineTextView"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:text="@string/got_it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gotItButton"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp" />
+
+    <TextView
+        android:text="@string/step_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/step1"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="20sp"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:text="@string/step_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/step2"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="20sp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/step1"
+        android:layout_alignLeft="@+id/step1"
+        android:layout_alignStart="@+id/step1" />
+
+    <TextView
+        android:text="@string/step_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/step3"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/gotItButton"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
