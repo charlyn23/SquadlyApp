@@ -1,5 +1,3 @@
-~/Desktop/InterviewProjects/Squadly/Squadly/app/src/main/res/values
-
 # Squadly
 
 App that will automatically send selected contacts an "I'm home safe" text when you get home after a night out. Because you always forget to actually do it yourself (Android).
